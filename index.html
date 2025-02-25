@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik Sabhavat</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Karthik Sabhavat</span></a>
+        <nav class="navbar">
+            <a href="#home" class="active">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="resume.pdf" download="Karthik_Sabhavat_Resume">Resume</a>
+        </nav>
+        <a href="https://www.linkedin.com/in/karthik-sabhavat/" class="contact">Contact Me</a>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="home">
+            <div class="home-content">
+                <h2>Hello</h2>
+                <h2>I'm <span>Karthik<br></span>A Data Analyst | Web Developer</h2>
+                <p>
+                    As a Data Analyst, I leverage my expertise in Python, R, SQL, and SAS Enterprise to analyze and visualize data, uncovering actionable insights for decision-making. Proficient in tools like Excel, Pandas, and SQL Workbench, I clean, process, and interpret complex datasets. My web development skills in HTML, CSS, JavaScript, React, and Angular allow me to create dynamic, user-friendly interfaces, while tools like VS Code, 
+                    GitHub, and Postman ensure efficient development and collaboration. Combining analytical and technical expertise,
+                    I bridge data-driven insights with seamless digital solutions.
+                </p>
+                
+            </div>
+            <div class="img-box">
+                <img src="image1.jpg" alt="Karthik Sabhavat">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="about-img">
+                <img src="image2.jpg" alt="Karthik Sabhavat">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Data <span>Analyst</span> | Web <span>Developer</span></h3>
+                <p>  I'm Karthik Sabhavat, i am a Graduate student in Missouri university of Science and technology in Information Sciences and 
+                    Technologies, i am a technology freak and always been with newer tech, i am proficent in problem solving, 
+                    good public speaker.   </p>           
+                
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="heading">My <span>Projects</span></h2>
+            <div class="projects-content">
+                <div class="project-item">
+                    <h3>Sentiment and Trend Analysis on Obesity and Chronic Disease Prevention</h3><br>
+                    <p>Collected and compiled relevant articles and keyword-based data into Excel sheets for analysis.
+                        Utilized SAS Enterprise Miner to retrieve, preprocess, and analyze the data, applied text mining and sentiment analysis to classify public sentiment 
+                        (positive, negative, or neutral) on obesity and chronic disease prevention.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Credit Card Fraud Detection Using Decision Trees</h3><br>
+                    <p>Collected and compiled transactional data into Excel sheets for analysis, Utilized Python to preprocess, retrieve, and analyze the dataset, applying various data mining techniques
+                        Used decision tree algorithms to classify transactions, used charts and visualizations to interpret patterns and trends, deriving conclusions</p>
+                </div>
+                <div class="project-item">
+                    <h3>GreenCap Technologies Webpage</h3><br>
+
+                    <p>Worked as a frontend developer for greencap technologies website, its a online health consulting
+                        platform which helps users to book apointment and see all medical records, used Html,Css, typescript and 
+                        java for development, technologies like Angular, Bootstrap for frontend and Ecllipse for Backend and Postman for testing.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+       
+    </main>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/sabhavat.karthik"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/karthik______________s/"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/karthik-sabhavat/"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+       
+        <p class="copyright">© 2023 Karthik Sabhavat | All Rights Reserved</p>
+    </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
